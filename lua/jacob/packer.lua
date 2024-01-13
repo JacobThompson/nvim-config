@@ -33,5 +33,13 @@ return require('packer').startup(function(use)
 			{'williamboman/mason-lspconfig.nvim'}
 		}
 	}
+
+	use {
+		"jiaoshijie/undotree",
+		requires = {
+			"nvim-lua/plenary.nvim",
+		},
+	}
+
 end)
 
